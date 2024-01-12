@@ -1,0 +1,93 @@
+
+body {
+    background-image:url(Images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    }
+
+    .product{
+        width: 290px;
+        height: 290px;
+        background-color : #82ab79;
+        border-radius: 15%;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: center;*/
+        align-items: center;
+
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7%;
+    }
+
+    .image-container {
+        margin-top: 2%;
+        width: 200px; /* Ajustez la largeur selon vos besoins */
+        height: 200px; /* Ajustez la hauteur selon vos besoins */
+    }
+    
+    .image-container img {
+        max-width: 100%; /* Ajustez la taille maximale de l'image */
+        max-height: 100%; /* Ajustez la taille maximale de l'image */
+        display: block; /* Pour supprimer l'espace réservé à la ligne de base de l'image */
+    }
+
+    .quantity-container{
+        width:290px;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .upper{
+        padding: 10px 20px; /* Ajustez la taille du bouton */
+        background-color: #CFCDCD;
+        border-radius: 50px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .number{
+        padding: 10px 20px; /* Ajustez la taille du bouton */
+        background-color: white;
+        border-radius: 50px;
+        color: black;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .commande{
+        width: 130px;
+        background-color: #26B607;
+        padding: 10px 17px; /* Ajustez la taille du bouton */
+        border-radius: 50px;
+        color: white;
+        margin-left: 8%;
+        cursor: pointer;
+    }
+
+    .continue{
+        width: 250px;
+        height: 40px;
+        background-color: #26B607;
+        padding: 10px 20px; /* Ajustez la taille du bouton */
+        border-radius: 50px;
+        margin-left: 40%;
+        margin-top: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        cursor: pointer;
+    }

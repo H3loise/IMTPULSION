@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <script src="backMenu.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class ="product">
+                <div class="image-container">
+                    <img src="Images/1f355.png" alt="pizza">
+                </div>
+                <div class="quantity-container">
+                    <!--<div id="continue-button" class="commande">Commander !</div>-->
+                    <div id="continue-button" class="commande" onclick="redirectToNewPage('commande', 'pizza')">Commander !</div>
+                </div>  
+            </div>
+            <div class ="product">
+                <div class="image-container">
+                    <img src="Images/1f354.png" alt="burger">
+                </div>
+                <div class="quantity-container">
+                    <!--<div class="upper">+</div>
+                    <div class="number">0</div>
+                    <div class="upper">-</div>
+                    <div class="ok-button">OK !</div>-->
+                    <div id="continue-button" class="commande" onclick="redirectToNewPage('commande', 'burger')">Commander !</div>
+                </div>
+            </div>
+            <div class ="product">
+                <div class="image-container">
+                    <img src="Images/1f95e.png" alt="pancake">
+                </div>
+                <div class="quantity-container">
+                    <div id="continue-button" class="commande" onclick="redirectToNewPage('commande', 'pancake')">Commander !</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

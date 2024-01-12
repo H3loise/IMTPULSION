@@ -1,0 +1,26 @@
+body {
+    background-image:url(Images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    }
+
+    .container{
+        border-radius: 15%;
+        display: flex;
+        margin-top: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+
+    
